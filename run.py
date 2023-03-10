@@ -23,4 +23,4 @@ def gform_send():
     return redirect('/gform')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="https://leetun2k2.github.io/Gform-auto-fill/", debug=True)
